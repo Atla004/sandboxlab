@@ -4,6 +4,34 @@ CMake es un sistema de compilacion multiplataforma que genera archivos de proyec
 
 ---
 
+## Windows
+
+### Opcion 1: Instalador oficial (recomendado)
+
+1. Descarga el instalador desde [cmake.org/download](https://cmake.org/download/)
+2. Ejecuta el instalador y selecciona **"Add CMake to the system PATH for all users"**
+3. Reinicia tu terminal
+
+Verifica la instalacion:
+
+```cmd
+cmake --version
+```
+
+### Opcion 2: Winget
+
+```powershell
+winget install Kitware.CMake
+```
+
+### Opcion 3: Chocolatey
+
+```powershell
+choco install cmake
+```
+
+---
+
 ## Linux (Ubuntu / Debian)
 
 ```bash
@@ -47,43 +75,6 @@ Verifica la instalacion:
 
 ```bash
 cmake --version
-```
-
----
-
-## Windows
-
-### Opcion 1: Instalador oficial (recomendado)
-
-1. Descarga el instalador desde [cmake.org/download](https://cmake.org/download/)
-2. Ejecuta el instalador y selecciona **"Add CMake to the system PATH for all users"**
-3. Reinicia tu terminal
-
-Verifica la instalacion:
-
-```cmd
-cmake --version
-```
-
-### Opcion 2: Winget
-
-```powershell
-winget install Kitware.CMake
-```
-
-### Opcion 3: Chocolatey
-
-```powershell
-choco install cmake
-```
-
-### Opcion 4: WSL
-
-Si usas WSL, sigue los pasos de Linux:
-
-```bash
-sudo apt update
-sudo apt install cmake
 ```
 
 ---
