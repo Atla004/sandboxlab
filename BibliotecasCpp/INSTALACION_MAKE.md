@@ -51,9 +51,13 @@ Si `g++` funciona pero `make` (o `mingw32-make`) no, sigue los pasos para agrega
 
 4. Haz clic en **"Nuevo"** y agrega la ruta a la carpeta `bin` de tu compilador.
    
-   - **Dev-C++:** Generalmente es `C:\Program Files (x86)\Dev-Cpp\MinGW64\bin`
-   - **MinGW:** Generalmente es `C:\MinGW\bin`
+   - **Dev-C++:** El compilador viene incluido dentro de la carpeta de instalacion de Dev-C++. La ruta generalmente es:
+     - `C:\Program Files (x86)\Dev-Cpp\MinGW64\bin`
+     - Si no la encuentras ahi, abre Dev-C++, ve a **Herramientas > Opciones del compilador** y copia la ruta que aparece en "Directorio de binarios".
+   - **MinGW independiente:** Generalmente es `C:\MinGW\bin`
    - **MSYS2:** Generalmente es `C:\msys64\mingw64\bin`
+
+   > **Tip:** Si no estas seguro de donde esta tu compilador, puedes buscar `g++.exe` en el explorador de archivos. La carpeta que lo contiene es la que debes agregar al PATH.
 
    > ![Paso 4: Agregar ruta al PATH](IMAGEN_PASO_4_AQUI)
 
