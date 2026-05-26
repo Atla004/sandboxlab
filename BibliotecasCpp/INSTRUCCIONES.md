@@ -96,6 +96,7 @@ Al ejecutar el programa deberias ver:
 ```
 Hola, Carlos!
 Suma: 8
+Nombre: Ana, Edad: 25
 ```
 
 ---

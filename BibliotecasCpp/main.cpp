@@ -3,14 +3,11 @@
 #include "persona.h"
 
 int main() {
-std::cout << utils::saludar("Carlos") << std::endl;
-std::cout << "Suma: " << utils::sumar(5, 3) << std::endl;
+    std::cout << utils::saludar("Carlos") << std::endl;
+    std::cout << "Suma: " << utils::sumar(5, 3) << std::endl;
+
+    Persona p("Ana", 25);
+    p.mostrar();
 
     return 0;
 }
-
-
-/*
-    Persona p("Ana", 25);
-    p.mostrar();
-*/
