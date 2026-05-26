@@ -20,13 +20,6 @@ sudo apt update
 sudo apt install build-essential
 ```
 
-**macOS:**
-```bash
-xcode-select --install
-```
-
-**Windows (WSL recomendado):**
-Instala WSL con Ubuntu desde la Microsoft Store, luego sigue los pasos de Linux.
 
 Alternativamente, puedes usar [MinGW](https://www.mingw-w64.org/) o [MSYS2](https://www.msys2.org/).
 
@@ -43,7 +36,7 @@ brew install cmake
 ```
 
 **Windows:**
-Descarga el instalador desde [cmake.org](https://cmake.org/download/) o usalo via WSL.
+Descarga el instalador desde [cmake.org](https://cmake.org/download/) 
 
 ---
 
@@ -51,7 +44,7 @@ Descarga el instalador desde [cmake.org](https://cmake.org/download/) o usalo vi
 
 ### Opcion 1: Usando Make (recomendado)
 
-Desde la carpeta `multiarchivo`, ejecuta:
+Desde la carpeta `BibliotecasCpp`, ejecuta:
 
 **Compilar:**
 ```bash
@@ -70,7 +63,7 @@ make clean
 
 ### Opcion 2: Usando CMake
 
-Desde la carpeta `multiarchivo`, ejecuta:
+Desde la carpeta `BibliotecasCpp`, ejecuta:
 
 **Crear directorio de build y compilar:**
 ```bash
@@ -110,7 +103,7 @@ Suma: 8
 ## Estructura del proyecto
 
 ```
-multiarchivo/
+BibliotecasCpp/
 ├── main.cpp          # Funcion main
 ├── util.h            # Declaraciones de funciones utilitarias
 ├── util.cpp          # Implementacion de funciones utilitarias

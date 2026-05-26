@@ -53,14 +53,6 @@ cmake --version
 sudo dnf install cmake
 ```
 
-O en versiones antiguas:
-
-```bash
-sudo yum install cmake
-```
-
----
-
 ## macOS
 
 Con Homebrew:

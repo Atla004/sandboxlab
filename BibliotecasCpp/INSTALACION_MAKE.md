@@ -39,18 +39,13 @@ Si `g++` funciona pero `make` (o `mingw32-make`) no, sigue los pasos para agrega
 
 1. Abre el menu de inicio y busca **"Variables de entorno"**. Selecciona **"Editar las variables de entorno del sistema"**.
 
-   > ![Paso 1: Buscar variables de entorno](IMAGEN_PASO_1_AQUI)
+![[Pasted image 20260526000925.png]]
+1. Haz clic en el boton **"Variables de entorno..."** en la parte inferior.
 
-2. Haz clic en el boton **"Variables de entorno..."** en la parte inferior.
-
-   > ![Paso 2: Boton variables de entorno](IMAGEN_PASO_2_AQUI)
-
-3. En la seccion **"Variables del sistema"** (abajo), busca la variable llamada `Path`, selecciona y haz clic en **"Editar"**.
-
-   > ![Paso 3: Editar Path](IMAGEN_PASO_3_AQUI)
-
-4. Haz clic en **"Nuevo"** y agrega la ruta a la carpeta `bin` de tu compilador.
-   
+2. En la seccion **"Variables del sistema"** (abajo), busca la variable llamada `Path`, selecciona y haz clic en **"Editar"**.
+![[Pasted image 20260526001524.png]]
+3. Haz clic en **"Nuevo"** y agrega la ruta a la carpeta `bin` de tu compilador.
+   ![[Pasted image 20260526001637.png]]
    - **Dev-C++:** El compilador viene incluido dentro de la carpeta de instalacion de Dev-C++. La ruta generalmente es:
      - `C:\Program Files (x86)\Dev-Cpp\MinGW64\bin`
      - Si no la encuentras ahi, abre Dev-C++, ve a **Herramientas > Opciones del compilador** y copia la ruta que aparece en "Directorio de binarios".
@@ -59,7 +54,6 @@ Si `g++` funciona pero `make` (o `mingw32-make`) no, sigue los pasos para agrega
 
    > **Tip:** Si no estas seguro de donde esta tu compilador, puedes buscar `g++.exe` en el explorador de archivos. La carpeta que lo contiene es la que debes agregar al PATH.
 
-   > ![Paso 4: Agregar ruta al PATH](IMAGEN_PASO_4_AQUI)
 
 5. Haz clic en **"Aceptar"** en todas las ventanas y **reinicia tu terminal** para que los cambios surtan efecto.
 
