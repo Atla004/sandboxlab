@@ -15,7 +15,7 @@ private:
     int velocidad;
     int nivel;
 
-    void copiar(const char*& dest, const char* src);
+    void copiar(char*& dest, const char* src);
     void liberarCadena(char*& cadena);
 
 public:

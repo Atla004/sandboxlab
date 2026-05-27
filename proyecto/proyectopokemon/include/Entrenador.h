@@ -27,9 +27,6 @@ public:
     void mostrar() const;
     const char* getNombre() const;
     int getNumPokemon() const;
-    Pokemon* getPokemonActivo() const;
-    void setPokemonActivo(int indice);
-    int getPokemonActivoIndice() const;
 };
 
 #endif

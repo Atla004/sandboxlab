@@ -34,13 +34,14 @@ bool Mochila::usarItem(int indice, Pokemon& destino) {
             destino.curar();
             std::cout << "Usaste " << items[indice].nombre << "! " << destino.getNombre() << " recupero toda su vida!" << std::endl;
             break;
-        case Baya:
+        case Baya: {
             int curacion = 30;
             int nuevaVida = destino.getVida() + curacion;
             if (nuevaVida > destino.getVidaMax()) nuevaVida = destino.getVidaMax();
             destino.recibirDano(destino.getVida() - nuevaVida);
             std::cout << "Usaste " << items[indice].nombre << "! " << destino.getNombre() << " recupero " << curacion << " HP!" << std::endl;
             break;
+        }
         case MT:
             std::cout << "Usaste " << items[indice].nombre << "! (Efecto no implementado en E1)" << std::endl;
             break;

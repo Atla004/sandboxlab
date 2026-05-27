@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cstring>
 
-void Pokemon::copiar(const char*& dest, const char* src) {
+void Pokemon::copiar(char*& dest, const char* src) {
     if (src) {
         dest = new char[strlen(src) + 1];
         strcpy((char*)dest, src);

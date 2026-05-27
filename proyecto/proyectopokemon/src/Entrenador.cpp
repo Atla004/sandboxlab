@@ -55,7 +55,7 @@ void Entrenador::redimensionar() {
     capacidad = nuevaCap;
 }
 
-Entrenador::Entrenador(const Entrenador& otro) : equipo(nullptr), nombre(nullptr) {
+Entrenador::Entrenador(const Entrenador& otro) : nombre(nullptr), equipo(nullptr) {
     copiar(otro);
 }
 
