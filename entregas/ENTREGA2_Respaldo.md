@@ -4,7 +4,7 @@
 
 Ampliar el gestor de paquetes Torrespaldo de la Entrega 1 añadiendo persistencia mediante ficheros de texto. el usuario podrá agregar archivos reales del disco a un paquete en memoria, listarlos, verlos, extraerlos, y guardar/cargar el paquete completo a un archivo de texto. Se mantiene toda la funcionalidad de la Entrega 1.
 
-**Tema central:** flujos de ficheros, formato CSV, importación de archivos reales.
+**Tema central:** flujos de ficheros, importación de archivos reales.
 
 ---
 
@@ -18,8 +18,8 @@ Ampliar el gestor de paquetes Torrespaldo de la Entrega 1 añadiendo persistenci
 - Agregar archivo real al paquete
 - Extraer archivo del paquete
 - Gestionar ficheros
-  - Exportar índice del paquete a CSV
-  - Cargar índice desde CSV
+  - Exportar índice del paquete a archivo
+  - Cargar índice desde archivo
   - Guardar paquete a archivo TXT
   - Cargar paquete desde archivo TXT
   - Ver información del paquete
@@ -30,7 +30,7 @@ Ampliar el gestor de paquetes Torrespaldo de la Entrega 1 añadiendo persistenci
 
 - El usuario puede agregar archivos de texto reales del disco al paquete
 - Los datos se almacenan en un buffer dinámico igual que en Entrega 1
-- Solo archivos de texto (.txt, .csv, .md, .cpp, etc.)
+- Solo archivos de texto (.txt, .md, .cpp, etc.)
 - Si el archivo no existe o no se puede abrir, se muestra mensaje de error
 
 ### Extraer archivos
@@ -39,15 +39,15 @@ Ampliar el gestor de paquetes Torrespaldo de la Entrega 1 añadiendo persistenci
 
 ### Gestión de ficheros
 
-- Exportar el índice del paquete a CSV (se puede abrir con Excel/LibreOffice)
-- Cargar el índice desde un CSV guardado previamente
+- Exportar el índice del paquete a archivo (se puede abrir con Excel/LibreOffice)
+- Cargar el índice desde un archivo guardado previamente
 - Guardar el paquete completo a un archivo TXT (para compartir o transportar)
 - Cargar un paquete completo desde un TXT guardado previamente
 - Ver información resumida del paquete (cantidad de archivos, tamaños)
 
 ### Datos
 
-- Archivo CSV con el índice del paquete
+- Archivo con el índice del paquete
 - Archivo TXT con el paquete completo exportado
 - Al menos 2 archivos de prueba reales para agregar al paquete
 - El paquete guardado debe poder cargarse en otra ejecución del programa

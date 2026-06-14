@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "1ae89164be8e93a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "afa6b3b065fde059",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aaac42b5de814e85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "entregas/ENTREGA2_Pokemon.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ENTREGA2_Pokemon"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "627e37f6761c9822",
+    "type": "split",
+    "children": [
+      {
+        "id": "a51fda5db1bf1bc6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5762b4fa3bb0e85f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f86f3ffb7f5e0da7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1ea642d4d535be74",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d1c292fb4f6e522c",
+    "type": "split",
+    "children": [
+      {
+        "id": "612a3b1e85f7ab9a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5777a4eae07d071",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "entregas/ENTREGA2_Pokemon.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ENTREGA2_Pokemon"
+            }
+          },
+          {
+            "id": "969ddf60e9a83547",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "entregas/ENTREGA2_Pokemon.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ENTREGA2_Pokemon"
+            }
+          },
+          {
+            "id": "98b5ccf34b7ce59e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ccb6b2c07552929e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b4d89c60f1058467",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "entregas/ENTREGA2_Pokemon.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ENTREGA2_Pokemon"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "aaac42b5de814e85",
+  "lastOpenFiles": [
+    "entregas/type_chart.csv",
+    "entregas/pokemon_species.csv",
+    "entregas/ENTREGA2_Respaldo.md",
+    "entregas/ENTREGA2_Pokemon.md",
+    "entregas/ENTREGA1_Respaldo.md"
+  ]
+}

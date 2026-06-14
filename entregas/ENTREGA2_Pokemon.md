@@ -1,6 +1,6 @@
 # Entrega 2 — Ficheros de Texto
 
-## 🎯 Objetivo
+## Objetivo
 
 Ampliar el simulador de la Entrega 1 añadiendo persistencia mediante ficheros de texto. El programa debe seguir compilando y ejecutándose sin archivos binarios. Todo el código de la Entrega 1 debe mantenerse funcional.
 
@@ -30,7 +30,7 @@ Ampliar el simulador de la Entrega 1 añadiendo persistencia mediante ficheros d
 
 ### Datos
 
-- Archivos con pool de especies disponibles (mínimo 6 especies)
+- Archivo con pool de especies disponibles (mínimo 6 especies)
 - Desde ese pool se puede armar el equipo de cada entrenador
 - Archivo con equipos de entrenador (mínimo 2 equipos distintos)
 - Archivo con registro de batallas
